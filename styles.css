@@ -66,5 +66,25 @@ body{
 
 .alerta{
     background-color: 100;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+
+.style-temp-act{
+    font-size: 30px;
+}
+.style-temp{
+    font-size: 16px;
+    color:white
+}
+
+.resultado-div{
+    text-align: center;
+
+}
+
+.nombre-ciudad{
     
 }
