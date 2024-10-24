@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App by Hiram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Busca el clima en tu ciudad</h1>
+        </div>
+        <div id="resultado" class="style-resultado">
+            <p>Agrega tu ciudad y país, el resultado se mostrará aquí</p>
+        </div>
+
+        <form id="formulario" class="style-form">
+            <input 
+            class="input-ciudad"
+            type="text"
+            name="ciudad"
+            id="ciudad"
+            placeholder="Escribe tu ciudad"
+
+            />
+
+            <select class="style-select" id="pais">
+                <option disable selected value="">Seleccione</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="ES">España</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">México</option>
+                <option value="PE">Perú</option>
+            </select>
+
+            <input 
+            type="submit"
+            class="style-button"
+            value="Obtener clima"
+            />
+            
+            
+        </form>
+
+    </div>
+    
+</body>
+</html>
