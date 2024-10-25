@@ -86,7 +86,7 @@ function mostrarClima(datos){
     // Nombre de la ciudad
     const nombreCiudad = document.createElement('h1');
     nombreCiudad.classList.add('nombre-ciudad');
-    nombreCiudad.textContent = name
+    nombreCiudad.textContent = `Clima en ${name}`
     // Temperatura actual
     const tempActual = document.createElement('p');
     tempActual.classList.add('style-temp-act');
