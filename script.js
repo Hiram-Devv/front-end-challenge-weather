@@ -29,6 +29,7 @@ function buscarClima(e){
 
 function mostrarError(mensaje){
     // console.log(mensaje)
+    limpiarHTML();
     // Si la alerta tiene esta clase, ya no se genera más de una
     const alerta = document.querySelector('.numAlerta')
 
